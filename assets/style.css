@@ -47,14 +47,14 @@ body {
   border-top-left-radius: 18px !important;
 }
 .chat-bubble.chat-bubble-visible.chat-bubble-not-last {
-border-bottom-left-radius: 2px;
+  border-bottom-left-radius: 2px;
 }
 .chat-bubble.chat-bubble-visible.chat-bubble-typing {
   border-top-left-radius: 18px !important;
 }
 @keyframes typing-dot-animation {
   0% {
-  transform: translateY(0px);
+    transform: translateY(0px);
   }
   28% {
     transform: translateY(-5px);
