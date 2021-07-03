@@ -51,7 +51,7 @@ const showNewChatBubble = index => {
 			if (index > 0) {
 				chatBubble[index - 1].classList.add('chat-bubble-not-last');
 			}
-		}, 3000);
+		}, 3500);
 	}
 }
 
