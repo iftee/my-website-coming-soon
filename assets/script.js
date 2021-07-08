@@ -8,12 +8,12 @@ const createChatBubble = () => {
 };
 
 const socialLink = {
-  facebook: '<a href="https://www.facebook.com/iftakhar.hasan/" target="_blank"><img src="./assets/img/facebook.svg" alt="Facebook link"></a>',
-  linkedin: '<a href="https://www.linkedin.com/in/iftakharhasan/" target="_blank"><img src="./assets/img/linkedin.svg" alt="LinkedIn link"></a>',
-  behance: '<a href="https://www.behance.net/iftakhar" target="_blank"><img src="./assets/img/behance.svg" alt="Behance link"></a>',
-  github: '<a href="https://github.com/iftee" target="_blank"><img src="./assets/img/github.svg" alt="Github link"></a>',
-  flickr: '<a href="https://www.flickr.com/photos/iftakharhasan" target="_blank"><img src="./assets/img/flickr.svg" alt="Flickr link"></a>',
-  instagram: '<a href="https://www.instagram.com/iftakhar.hasan/" target="_blank"><img src="./assets/img/instagram.svg" alt="Instagram link"></a>',
+  facebook: '<a href="https://www.facebook.com/iftakhar.hasan/" target="_blank" class="facebook"></a>',
+  linkedin: '<a href="https://www.linkedin.com/in/iftakharhasan/" target="_blank" class="linkedin"></a>',
+  behance: '<a href="https://www.behance.net/iftakhar" target="_blank" class="behance"></a>',
+  github: '<a href="https://github.com/iftee" target="_blank" class="github"></a>',
+  flickr: '<a href="https://www.flickr.com/photos/iftakharhasan" target="_blank" class="flickr"></a>',
+  instagram: '<a href="https://www.instagram.com/iftakhar.hasan/" target="_blank" class="instagram"></a>',
 };
 
 const messages = [
