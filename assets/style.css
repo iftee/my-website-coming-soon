@@ -5,8 +5,7 @@ body { background-color: #18191a; font-size: 15px; line-height: 20px; font-famil
 .flex-column { width: 100%; }
 .chat-bubbles { display: flex; flex-direction: column; flex-wrap: wrap; margin-top: auto; padding: 18px; }
 .chat-bubble { align-self: flex-start; background-color: #f5f5fb; color: #18191a; border-radius: 18px; border-top-left-radius: 2px; padding: 0; font-size: 0; opacity: 0; margin: 0; height: 0; max-width: 320px; transition: all 150ms ease-in; }
-.chat-bubble a { display: inline-block; width: 40px; height: 40px; margin-right: 9px; }
-.chat-bubble a img { display: block; width: 40px; height: 40px; margin-right: 9px; }
+.chat-bubble a { display: inline-block; width: 40px; height: 40px; margin-right: 9px; background-position: center; background-size: contain; background-repeat: no-repeat; }
 .chat-bubble.chat-bubble-visible { height: auto; padding: 8px 12px; margin-top: 2px; font-size: 15px; opacity: 1 }
 .chat-bubble.chat-bubble-visible:first-child { margin-top: 38px !important; border-top-left-radius: 18px !important; }
 .chat-bubble.chat-bubble-visible.chat-bubble-style-adjusted { border-bottom-left-radius: 2px; }
@@ -24,3 +23,10 @@ body { background-color: #18191a; font-size: 15px; line-height: 20px; font-famil
 @media (min-width: 576px) { .chat-bubbles-wrap { flex-direction: row-reverse; } .flex-column { width: 50%; } .picture img { margin-left: auto; } }
 @media (orientation: landscape) { .chat-bubbles-wrap { flex-direction: row-reverse; } .flex-column { width: 50%; } .picture img { margin-left: auto; } }
 @media (max-width: 575px) { .picture img { margin-top: 38px; } }
+.facebook { background-image: url(./assets/img/facebook.svg); }
+.linkedin { background-image: url(./assets/img/linkedin.svg); }
+.behance { background-image: url(./assets/img/behance.svg); }
+.github { background-image: url(./assets/img/github.svg); }
+.flickr { background-image: url(./assets/img/flickr.svg); }
+.instagram { background-image: url(./assets/img/instagram.svg); }
+.facebook { background-image: url(./assets/img/facebook.svg); }
