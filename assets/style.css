@@ -23,10 +23,9 @@ body { background-color: #18191a; font-size: 15px; line-height: 20px; font-famil
 @media (min-width: 576px) { .chat-bubbles-wrap { flex-direction: row-reverse; } .flex-column { width: 50%; } .picture img { margin-left: auto; } }
 @media (orientation: landscape) { .chat-bubbles-wrap { flex-direction: row-reverse; } .flex-column { width: 50%; } .picture img { margin-left: auto; } }
 @media (max-width: 575px) { .picture img { margin-top: 38px; } }
-.facebook { background-image: url(./assets/img/facebook.svg); }
-.linkedin { background-image: url(./assets/img/linkedin.svg); }
-.behance { background-image: url(./assets/img/behance.svg); }
-.github { background-image: url(./assets/img/github.svg); }
-.flickr { background-image: url(./assets/img/flickr.svg); }
-.instagram { background-image: url(./assets/img/instagram.svg); }
-.facebook { background-image: url(./assets/img/facebook.svg); }
+.facebook { background-image: url(assets/img/facebook.svg); }
+.linkedin { background-image: url(assets/img/linkedin.svg); }
+.behance { background-image: url(assets/img/behance.svg); }
+.github { background-image: url(assets/img/github.svg); }
+.flickr { background-image: url(assets/img/flickr.svg); }
+.instagram { background-image: url(assets/img/instagram.svg); }
